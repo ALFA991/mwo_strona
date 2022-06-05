@@ -1,0 +1,77 @@
+:root {
+    --dark: #374151;
+    --darker: #1F2937;
+    --darkest: #111827;
+    --light: #EEE;
+    --gray: #6b7280;
+    --pink: #EC4899;
+    --purple: #8B5Cf6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(images/cstlo.jpg);
+
+
+}
+.wrapper{
+    height: 900px;
+    
+}
+  
+header {
+    width: 950px;
+    height: 270px;
+    background-image: url('images/top.jpg');
+    background-size: cover;
+    background-position: center; 
+    margin: auto;
+
+    }
+
+nav {
+    width: 945px;
+    height: 60px;
+    margin: auto;
+    background-color: #252525;
+    border-style: outset;
+    
+    }
+nav a {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: dimgray;
+    padding: 15px;
+    margin: auto;
+    margin-left: 40px;
+    color: whitesmoke;
+
+}
+nav a:hover {
+    background-color: rgb(184, 38, 38);
+    color: whitesmoke;
+}
+
+.main_info{
+    margin: auto;
+    width: 950px;
+    height: 460px;
+    size: 500px;
+    background-color: #252525;
+}
+.main_info_section1{
+    border-style: outset;
+    width: 700px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 29px;
+}
+
+
+  
